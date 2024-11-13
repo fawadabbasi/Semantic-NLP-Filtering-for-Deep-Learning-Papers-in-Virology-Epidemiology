@@ -7,6 +7,10 @@ The code extracts relevant abstracts, preprocesses them, and then classifies the
 - **BERT Embeddings:** Extract embeddings using `allenai/scibert_scivocab_uncased` for text similarity calculations.
 - **Cosine Similarity Scoring:** Rank abstracts based on relevance to predefined terms.
 - **Classification of Topics:** Classify papers into "text mining," "computer vision," "both," or "other" categories.
+  
+## GPU Usage for Optimization
+The code was optimized using GPU acceleration for faster embedding generation and processing. 
+
 ## Requirements
 To install the required dependencies, run:
 ```bash
