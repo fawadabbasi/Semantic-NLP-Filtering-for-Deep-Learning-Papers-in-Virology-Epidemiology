@@ -23,8 +23,7 @@ nltk.download('stopwords')
 ```
 ## Code Walkthrough
 - **Loading and Preprocessing Data:** Load abstracts from collection_with_abstracts.csv, filter out empty entries, and apply text preprocessing.
-- **Set Up BERT Model:** Load SciBERT model and tokenizer from Hugging Face.
-- **Embedding Generation:** Use BERT to generate embeddings for abstracts and keywords.
+- **Embedding Generation:** Use SciBERT to generate embeddings for abstracts and keywords.
 - **Cosine Similarity Computation:** Compare embeddings and compute relevance scores.
 - **Classification and Keyword Extraction:** Classify papers based on content and relevant terms.
 - **Save Results:** Filter and save the results with classification labels and relevance scores to filtered_virology_papers_bert.csv.
